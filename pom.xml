@@ -75,6 +75,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>ecom-shop</finalName>
     </build>
 
 </project>
