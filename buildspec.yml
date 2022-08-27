@@ -3,12 +3,15 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Entered the build phase...
+      - echo Starting build spring app
       - mvn clean package
   post_build:
     commands:
-      - echo Build completed successfully
+      - echo Spring Build completed successfully
 artifacts:
   files:
     - target/ecom-shop.jar
   discard-paths: yes
+
+
+server:
